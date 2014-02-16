@@ -63,7 +63,7 @@
                     android:linksClickable="false"
                     android:gravity="right"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#ff000000"
+                    android:textColor="#ffffffff"
                     android:textSize="16sp" />
 
                 <LinearLayout
@@ -103,7 +103,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textColor="@color/text_hairline" />
+                        android:textColor="@color/timestamp_color" />
                 </LinearLayout>
 
                 <ViewStub android:id="@+id/mms_layout_view_stub"
