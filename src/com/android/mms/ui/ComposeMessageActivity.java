@@ -120,7 +120,7 @@ import android.widget.Toast;
 
 import com.android.internal.telephony.TelephonyIntents;
 import com.android.internal.telephony.TelephonyProperties;
-import com.android.internal.telephony.util.BlacklistUtils;
+// import com.android.internal.telephony.util.BlacklistUtils;
 import com.android.mms.LogTag;
 import com.android.mms.MmsApp;
 import com.android.mms.MmsConfig;
@@ -215,7 +215,7 @@ public class ComposeMessageActivity extends Activity
     private static final int MENU_SAVE_RINGTONE         = 30;
     private static final int MENU_PREFERENCES           = 31;
     private static final int MENU_GROUP_PARTICIPANTS    = 32;
-    private static final int MENU_ADD_TO_BLACKLIST      = 33;
+    // private static final int MENU_ADD_TO_BLACKLIST      = 33;
 
     private static final int RECIPIENTS_MAX_LENGTH = 312;
 
@@ -2695,11 +2695,11 @@ public class ComposeMessageActivity extends Activity
         buildAddAddressToContactMenuItem(menu);
 
         // Add to Blacklist item (if enabled)
-        if (BlacklistUtils.isBlacklistEnabled(this)) {
-            menu.add(0, MENU_ADD_TO_BLACKLIST, 0, R.string.add_to_blacklist)
-                    .setIcon(R.drawable.ic_block_message_holo_dark)
-                    .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
-        }
+        // if (BlacklistUtils.isBlacklistEnabled(this)) {
+        //     menu.add(0, MENU_ADD_TO_BLACKLIST, 0, R.string.add_to_blacklist)
+        //             .setIcon(R.drawable.ic_block_message_holo_dark)
+        //             .setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+        // }
 
         menu.add(0, MENU_PREFERENCES, 0, R.string.menu_preferences).setIcon(
                 android.R.drawable.ic_menu_preferences);
@@ -2804,9 +2804,9 @@ public class ComposeMessageActivity extends Activity
                 Conversation.dump();
                 LogTag.dumpInternalTables(this);
                 break;
-            case MENU_ADD_TO_BLACKLIST:
-                confirmAddBlacklist();
-                break;
+            // case MENU_ADD_TO_BLACKLIST:
+            //     confirmAddBlacklist();
+            //     break;
         }
 
         return true;
@@ -2815,7 +2815,7 @@ public class ComposeMessageActivity extends Activity
     /**
      * Pop up a dialog confirming adding the current number to the blacklist
      */
-    private void confirmAddBlacklist() {
+    /** private void confirmAddBlacklist() {
         //TODO: get the sender number
         final String number = getSenderNumber();
         if (TextUtils.isEmpty(number)) {
@@ -2827,8 +2827,7 @@ public class ComposeMessageActivity extends Activity
         new AlertDialog.Builder(this)
                 .setTitle(R.string.add_to_blacklist)
                 .setMessage(message)
-                .setPositiveButton(R.string.alert_dialog_yes, new DialogInterface.OnClickListener()
-{
+                .setPositiveButton(R.string.alert_dialog_yes, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int whichButton) {
                         BlacklistUtils.addOrUpdate(getApplicationContext(), number,
@@ -2838,6 +2837,7 @@ public class ComposeMessageActivity extends Activity
                 .setNegativeButton(R.string.alert_dialog_no, null)
                 .show();
     }
+     */
 
     private String getSenderNumber() {
         if (isRecipientCallable()) {

@@ -113,7 +113,7 @@
                         android:defaultValue="false" />
   </PreferenceCategory>
 
-    <!-- Extra Settings -->
+    <!-- Extra Settings
     <PreferenceCategory android:title="@string/pref_extra_settings"
         android:key="pref_key_extra_settings" >
 
@@ -125,5 +125,5 @@
                 android:targetPackage="com.android.settings"
                 android:targetClass="com.android.settings.Settings$BlacklistSettingsActivity" />
         </PreferenceScreen>
-  </PreferenceCategory>
+  </PreferenceCategory> -->
 </PreferenceScreen>

@@ -41,7 +41,7 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.android.internal.telephony.util.BlacklistUtils;
+// import com.android.internal.telephony.util.BlacklistUtils;
 
 import com.android.mms.MmsApp;
 import com.android.mms.MmsConfig;
@@ -71,7 +71,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     public static final String GROUP_MMS_MODE           = "pref_key_mms_group_mms";
 
     // Blacklist
-    public static final String BLACKLIST                = "pref_blacklist";
+    // public static final String BLACKLIST                = "pref_blacklist";
 
     // Menu entries
     private static final int MENU_RESTORE_DEFAULTS    = 1;
@@ -96,7 +96,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     private CheckBoxPreference mVibratePref;
     private CheckBoxPreference mEnableNotificationsPref;
     private CheckBoxPreference mMmsAutoRetrievialPref;
-    private PreferenceScreen mBlacklist;
+    // private PreferenceScreen mBlacklist;
     private RingtonePreference mRingtonePref;
     private Recycler mSmsRecycler;
     private Recycler mMmsRecycler;
@@ -128,20 +128,20 @@ public class MessagingPreferenceActivity extends PreferenceActivity
         // Since the enabled notifications pref can be changed outside of this activity,
         // we have to reload it whenever we resume.
         setEnabledNotificationsPref();
-        updateBlacklistSummary();
+        // updateBlacklistSummary();
         registerListeners();
         updateSmsEnabledState();
     }
 
-    private void updateBlacklistSummary() {
-        if (mBlacklist != null) {
-            if (BlacklistUtils.isBlacklistEnabled(this)) {
-                mBlacklist.setSummary(R.string.blacklist_summary);
-            } else {
-                mBlacklist.setSummary(R.string.blacklist_summary_disabled);
-            }
-        }
-    }
+    // private void updateBlacklistSummary() {
+    //     if (mBlacklist != null) {
+    //         if (BlacklistUtils.isBlacklistEnabled(this)) {
+    //             mBlacklist.setSummary(R.string.blacklist_summary);
+    //         } else {
+    //             mBlacklist.setSummary(R.string.blacklist_summary_disabled);
+    //         }
+    //     }
+    // }
 
     private void updateSmsEnabledState() {
         // Show the right pref (SMS Disabled or SMS Enabled)
@@ -185,7 +185,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
         mMmsAutoRetrievialPref = (CheckBoxPreference) findPreference(AUTO_RETRIEVAL);
         mVibratePref = (CheckBoxPreference) findPreference(NOTIFICATION_VIBRATE);
         mRingtonePref = (RingtonePreference) findPreference(NOTIFICATION_RINGTONE);
-        mBlacklist = (PreferenceScreen) findPreference(BLACKLIST);
+        // mBlacklist = (PreferenceScreen) findPreference(BLACKLIST);
 
         setMessagePreferences();
     }
