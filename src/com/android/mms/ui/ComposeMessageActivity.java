@@ -2837,7 +2837,6 @@ public class ComposeMessageActivity extends Activity
                 .setNegativeButton(R.string.alert_dialog_no, null)
                 .show();
     }
-     */
 
     private String getSenderNumber() {
         if (isRecipientCallable()) {
@@ -2847,6 +2846,7 @@ public class ComposeMessageActivity extends Activity
         // Not a callable sender
         return null;
     }
+     */
 
     private void confirmDeleteThread(long threadId) {
         Conversation.startQueryHaveLockedMessages(mBackgroundQueryHandler,
