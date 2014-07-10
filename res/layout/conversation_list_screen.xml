@@ -35,7 +35,8 @@
         android:divider="@null"
         android:dividerHeight="0dp"
         android:paddingTop="@dimen/cardsui_padding_half"
-        android:paddingBottom="@dimen/cardsui_padding_half"/>
+        android:paddingBottom="@dimen/cardsui_padding_half"
+        android:clipToPadding="false" />
 
     <TextView android:id="@+id/empty"
         android:layout_width="match_parent"
