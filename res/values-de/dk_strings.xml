@@ -39,6 +39,7 @@ limitations under the License.
     <string name="message_counter_separator">von</string>
 
     <!-- NOTIFICATIONS -->
+
     <!-- Privacy mode -->
     <string name="pref_title_notification_privacy_mode_enabled">Privatsphäre</string>
     <string name="pref_summary_notification_privacy_mode_enabled">Sender und Nachricht in der Statusleiste verbergen und Schnellantwort deaktivieren.</string>
@@ -47,6 +48,10 @@ limitations under the License.
     <string name="notification_multiple_title_privacy_mode">Neue Nachrichten</string>
     <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> ungelesene Nachrichten</string>
     <string name="notification_ticker_privacy_mode">Neue Nachricht empfangen</string>
+
+    <!-- Heads up mode -->
+    <string name="pref_title_notification_heads_up_mode_enabled">Heads-Up</string>
+    <string name="pref_summary_notification_heads_up_mode_enabled">Nachrichten als Heads-Up Benachrichtigung anzeigen.</string>
 
     <!-- QUICKMESSAGE -->
     <string name="pref_quickmessage">Schnellantwort</string>
