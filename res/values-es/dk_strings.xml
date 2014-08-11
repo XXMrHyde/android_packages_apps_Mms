@@ -39,6 +39,7 @@ limitations under the License.
     <string name="message_counter_separator">de</string>
 
     <!-- NOTIFICATIONS -->
+
     <!-- Privacy mode -->
     <string name="pref_title_notification_privacy_mode_enabled">Modo Privacidad</string>
     <string name="pref_summary_notification_privacy_mode_enabled">Ocultar el emisor y el mensaje en la barra de estado y deshabilitar \'Respuesta rápida\'</string>
@@ -47,6 +48,10 @@ limitations under the License.
     <string name="notification_multiple_title_privacy_mode">Nuevo mensaje</string>
     <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> mensajes no leídos</string>
     <string name="notification_ticker_privacy_mode">Nuevo mensaje recibido</string>
+
+    <!-- Heads up mode -->
+    <string name="pref_title_notification_heads_up_mode_enabled">Heads up</string>
+    <string name="pref_summary_notification_heads_up_mode_enabled">Mostrar mensajes como notificaciones emergentes.</string>
 
     <!-- QUICKMESSAGE -->
     <string name="pref_quickmessage">Repuesta Rápida</string>
