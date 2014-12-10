@@ -24,10 +24,14 @@
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
 
-    <style name="MmsHoloTheme" parent="@android:style/Theme.Holo">
+    <style name="MmsHoloTheme" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@*android:drawable/darkkat_bg_blue_grey</item>
+        <item name="android:colorAccent">@*android:color/accent_material_light</item>
+        <item name="android:colorPrimary">@*android:color/material_blue_grey_900</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_blue_grey_950</item>
     </style>
 
-    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
         <item name="android:textColor">#cccccc</item>
         <item name="android:singleLine">true</item>
     </style>

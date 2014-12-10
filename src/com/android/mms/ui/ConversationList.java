@@ -793,7 +793,7 @@ public class ConversationList extends ListActivity implements DraftCache.OnDraft
             });
         }
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        AlertDialog.Builder builder = new AlertDialog.Builder(context, AlertDialog.THEME_MATERIAL_DARK);
         builder.setTitle(R.string.confirm_dialog_title)
             .setIconAttribute(android.R.attr.alertDialogIcon)
             .setCancelable(true)

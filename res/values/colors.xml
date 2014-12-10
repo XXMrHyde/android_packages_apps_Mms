@@ -25,14 +25,14 @@
     <drawable name="text_color_red">#ffff4444</drawable>
     <drawable name="text_color_black">#ff000000</drawable>
     <color name="text_hairline">#ff333333</color>
-    <color name="message_count_color">#66cccccc</color>
+    <color name="message_count_color">@*android:color/accent_material_light</color>
 
     <!-- Chat "sent time" text background -->
     <color name="timestamp_color">#bfffffff</color>
 
     <!-- the background color used for unread conversation -->
-    <color name="unread_bgcolor">#ff1B4453</color>
-    <color name="read_bgcolor">#ff111111</color>
+    <color name="unread_bgcolor">#ff143C3C</color>
+    <color name="read_bgcolor">@*android:color/darkkat_blue_grey</color>
 
     <color name="widget_sender_text_color_read">#aaaaaa</color>
     <color name="widget_sender_text_color_unread">#ffffff</color>
