@@ -661,7 +661,7 @@ public class MessageListItem extends LinearLayout implements
                 }
             };
 
-            AlertDialog.Builder b = new AlertDialog.Builder(mContext);
+            AlertDialog.Builder b = new AlertDialog.Builder(mContext, AlertDialog.THEME_MATERIAL_DARK);
 
             DialogInterface.OnClickListener click = new DialogInterface.OnClickListener() {
                 @Override

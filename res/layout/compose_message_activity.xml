@@ -116,7 +116,7 @@
             </ScrollView>
 
             <!-- Divider -->
-            <View android:background="#111111"
+            <View android:background="#1effffff"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
@@ -125,7 +125,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#000" >
+                android:background="@*android:color/darkkat_blue_grey" >
 
                 <EditText
                     android:textColor="@android:color/white"

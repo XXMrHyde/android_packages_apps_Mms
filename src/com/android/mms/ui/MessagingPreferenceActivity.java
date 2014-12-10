@@ -335,7 +335,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
             Preference preference) {
         if (preference == mSmsLimitPref) {
             new NumberPickerDialog(this,
-                    AlertDialog.THEME_HOLO_DARK,
+                    AlertDialog.THEME_MATERIAL_DARK,
                     mSmsLimitListener,
                     mSmsRecycler.getMessageLimit(this),
                     mSmsRecycler.getMessageMinLimit(),
@@ -343,7 +343,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
                     R.string.pref_title_sms_delete).show();
         } else if (preference == mMmsLimitPref) {
             new NumberPickerDialog(this,
-                    AlertDialog.THEME_HOLO_DARK,
+                    AlertDialog.THEME_MATERIAL_DARK,
                     mMmsLimitListener,
                     mMmsRecycler.getMessageLimit(this),
                     mMmsRecycler.getMessageMinLimit(),

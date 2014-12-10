@@ -503,7 +503,7 @@ public class ComposeMessageActivity extends Activity
         }
         String messageDetails = MessageUtils.getMessageDetails(
                 ComposeMessageActivity.this, cursor, msgItem.mMessageSize);
-        new AlertDialog.Builder(ComposeMessageActivity.this)
+        new AlertDialog.Builder(ComposeMessageActivity.this, AlertDialog.THEME_MATERIAL_DARK)
                 .setTitle(R.string.message_details_title)
                 .setMessage(messageDetails)
                 .setCancelable(true)
@@ -710,7 +710,7 @@ public class ComposeMessageActivity extends Activity
             if (mRecipientsEditor.hasValidRecipient(isMms)) {
                 String title = getResourcesString(R.string.has_invalid_recipient,
                         mRecipientsEditor.formatInvalidNumbers(isMms));
-                new AlertDialog.Builder(this)
+                new AlertDialog.Builder(this, AlertDialog.THEME_MATERIAL_DARK)
                     .setTitle(title)
                     .setMessage(R.string.invalid_recipient_message)
                     .setPositiveButton(R.string.try_to_send,
@@ -718,7 +718,7 @@ public class ComposeMessageActivity extends Activity
                     .setNegativeButton(R.string.no, new CancelSendingListener())
                     .show();
             } else {
-                new AlertDialog.Builder(this)
+                new AlertDialog.Builder(this, AlertDialog.THEME_MATERIAL_DARK)
                     .setTitle(R.string.cannot_send_message)
                     .setMessage(R.string.cannot_send_message_reason)
                     .setPositiveButton(R.string.yes, new CancelSendingListener())
@@ -2886,7 +2886,7 @@ public class ComposeMessageActivity extends Activity
     }
 
     private void showAddAttachmentDialog(final boolean replace) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, AlertDialog.THEME_MATERIAL_DARK);
         builder.setIcon(R.drawable.ic_dialog_attach);
         builder.setTitle(R.string.add_attachment);
 
@@ -3045,7 +3045,7 @@ public class ComposeMessageActivity extends Activity
 
         final int recipientLimit = MmsConfig.getRecipientLimit();
         if (recipientLimit != Integer.MAX_VALUE && recipientCount > recipientLimit) {
-            new AlertDialog.Builder(this)
+            new AlertDialog.Builder(this, AlertDialog.THEME_MATERIAL_DARK)
                     .setMessage(getString(R.string.too_many_recipients, recipientCount, recipientLimit))
                     .setPositiveButton(android.R.string.ok, null)
                     .create().show();
@@ -3549,7 +3549,7 @@ public class ComposeMessageActivity extends Activity
     }
 
     private void confirmDeleteDialog(OnClickListener listener, boolean locked) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, AlertDialog.THEME_MATERIAL_DARK);
         builder.setCancelable(true);
         builder.setMessage(locked ? R.string.confirm_delete_locked_message :
                     R.string.confirm_delete_message);
