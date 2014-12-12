@@ -355,4 +355,5 @@
     <string name="banner_sms_promo_title_initial" msgid="510014388581481569">"SMS/MMS ist nicht Ihre SMS-App."</string>
     <string name="banner_sms_promo_title_application" msgid="8123569785369713254">"<xliff:g id="APPNAME">%s</xliff:g> ist Ihre SMS-App."</string>
     <string name="banner_sms_promo_message" msgid="3536714414252763826">"Sie können dies unter \"Einstellungen\" ändern."</string>
+    <string name="start_new_message_button">Neue Nachricht</string>
 </resources>

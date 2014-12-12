@@ -25,4 +25,11 @@ All Rights Reserved. -->
     <!-- CardsUI item spacing -->
     <dimen name="cardsui_padding_half">3dip</dimen>
     <dimen name="cardsui_padding_full">6dip</dimen>
+
+    <!-- Floating action button -->
+    <dimen name="floating_action_button_height">56dp</dimen>
+    <dimen name="floating_action_button_width">56dp</dimen>
+    <dimen name="floating_action_button_translation_z">2dp</dimen>
+    <dimen name="floating_action_button_margin_right">16dp</dimen>
+    <dimen name="floating_action_button_margin_bottom">16dp</dimen>
 </resources>
