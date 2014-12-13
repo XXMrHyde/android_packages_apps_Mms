@@ -2652,7 +2652,7 @@ public class ComposeMessageActivity extends Activity
                 getResources().getBoolean(com.android.internal.R.bool.config_voice_capable);
         if (isRecipientCallable() && voiceCapable) {
             MenuItem item = menu.add(0, MENU_CALL_RECIPIENT, 0, R.string.menu_call)
-                .setIcon(R.drawable.ic_menu_call)
+                .setIcon(R.drawable.ic_menu_call_white_24dp)
                 .setTitle(R.string.menu_call);
             if (!isRecipientsEditorVisible()) {
                 // If we're not composing a new message, show the call icon in the actionbar
@@ -2667,7 +2667,7 @@ public class ComposeMessageActivity extends Activity
             }
             if (!mWorkingMessage.hasAttachment()) {
                 menu.add(0, MENU_ADD_ATTACHMENT, 0, R.string.add_attachment)
-                        .setIcon(R.drawable.ic_menu_attachment)
+                        .setIcon(R.drawable.ic_menu_attachment_white_24dp)
                     .setTitle(R.string.add_attachment)
                         .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);    // add to actionbar
             }
@@ -2887,7 +2887,7 @@ public class ComposeMessageActivity extends Activity
 
     private void showAddAttachmentDialog(final boolean replace) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this, AlertDialog.THEME_MATERIAL_DARK);
-        builder.setIcon(R.drawable.ic_dialog_attach);
+        builder.setIcon(R.drawable.ic_dialog_attach_white_24dp);
         builder.setTitle(R.string.add_attachment);
 
         if (mAttachmentTypeSelectorAdapter == null) {

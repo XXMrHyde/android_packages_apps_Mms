@@ -33,7 +33,7 @@
         android:orientation="horizontal"
         android:paddingLeft="8dip"
         android:paddingRight="8dip"
-        android:background="@drawable/header_bg_mms_widget_holo"
+        android:background="@drawable/header_bg_widget"
         android:gravity="center_vertical">
         <ImageView
             android:id="@+id/widget_icon"
@@ -62,7 +62,7 @@
             android:id="@+id/widget_compose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_msg_compose_holo_dark"
+            android:src="@drawable/ic_menu_msg_compose_white_24dp"
             android:background="?android:attr/selectableItemBackground"
             android:contentDescription="@string/new_message"
             android:paddingLeft="4dip"
@@ -75,6 +75,6 @@
         android:layout_weight="1"
         android:divider="@null"
         android:dividerHeight="0dp"
-        android:background="@drawable/gradient_bg_widget_holo"
+        android:background="@drawable/gradient_bg_widget"
         android:cacheColorHint="#00000000" />
 </LinearLayout>
