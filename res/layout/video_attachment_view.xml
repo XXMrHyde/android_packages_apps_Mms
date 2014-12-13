@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_gallery_video_overlay" />
+            android:src="@drawable/ic_gallery_video_overlay_white_24dp" />
     </RelativeLayout>
 
     <LinearLayout

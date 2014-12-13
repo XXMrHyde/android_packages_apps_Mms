@@ -24,7 +24,7 @@
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
 
-    <style name="MmsHoloTheme" parent="@android:style/Theme.Material">
+    <style name="MmsMaterialTheme" parent="@android:style/Theme.Material">
         <item name="android:colorBackground">@*android:drawable/darkkat_bg_blue_grey</item>
         <item name="android:colorAccent">@*android:color/accent_material_light</item>
         <item name="android:colorPrimary">@*android:color/material_blue_grey_900</item>

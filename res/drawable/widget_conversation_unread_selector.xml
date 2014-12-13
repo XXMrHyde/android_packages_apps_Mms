@@ -26,7 +26,7 @@
                     android:src="@drawable/list_selector_background_focused_selected" />
             </item>
             <item>
-                <nine-patch android:src="@drawable/list_unread_holo" />
+                <nine-patch android:src="@drawable/list_unread" />
             </item>
         </selector>
     </item>
