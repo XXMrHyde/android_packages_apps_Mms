@@ -54,7 +54,7 @@
 
         <Button
             android:id="@+id/view_video_button"
-            style="?android:attr/buttonStyleSmall"
+            style="@style/Widget.Material.DarkKat.Button.Small"
             android:layout_width="100dip"
             android:layout_height="45dip"
             android:textColor="@android:color/white"
@@ -62,7 +62,7 @@
 
         <Button
             android:id="@+id/replace_video_button"
-            style="?android:attr/buttonStyleSmall"
+            style="@style/Widget.Material.DarkKat.Button.Small"
             android:layout_width="100dip"
             android:layout_height="45dip"
             android:textColor="@android:color/white"
@@ -70,7 +70,7 @@
 
         <Button
             android:id="@+id/remove_video_button"
-            style="?android:attr/buttonStyleSmall"
+            sstyle="@style/Widget.Material.DarkKat.Button.Small"
             android:layout_width="100dip"
             android:layout_height="45dip"
             android:textColor="@android:color/white"

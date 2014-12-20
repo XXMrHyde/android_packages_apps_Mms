@@ -81,6 +81,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardsui_padding_full"
+            android:layout_marginRight="@dimen/cardsui_padding_full"
+            android:layout_marginBottom="@dimen/cardsui_padding_full"
+            android:background="@color/read_bgcolor"
             android:orientation="vertical">
 
             <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -115,19 +119,14 @@
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"/>
               </view>
-            </ScrollView>
 
-            <!-- Divider -->
-            <View android:background="#1effffff"
-                android:layout_width="match_parent"
-                android:layout_height="1dp" />
+            </ScrollView>
 
             <LinearLayout
                 android:id="@+id/bottom_panel"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@*android:color/darkkat_blue_grey" >
+                android:layout_height="wrap_content" >
 
                 <EditText
                     android:textColor="@android:color/white"
@@ -161,7 +160,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|bottom"
-                        android:textColor="#cc333333"
+                        android:textColor="@color/hint_text_color"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         android:paddingLeft="3dip"

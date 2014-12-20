@@ -71,6 +71,7 @@
 
             <ImageButton
                 android:id="@+id/play_slideshow_button"
+                style="@style/Widget.Material.DarkKat.ImageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/mms_play_btn_white_24dp" />
@@ -88,7 +89,7 @@
 
         <Button
             android:id="@+id/edit_slideshow_button"
-            style="?android:attr/buttonStyleSmall"
+            style="@style/Widget.Material.DarkKat.Button.Small"
             android:layout_width="100dip"
             android:layout_height="45dip"
             android:textColor="@android:color/white"
@@ -96,7 +97,7 @@
 
         <Button
             android:id="@+id/send_slideshow_button"
-            style="?android:attr/buttonStyleSmall"
+            style="@style/Widget.Material.DarkKat.Button.Small"
             android:layout_width="100dip"
             android:layout_height="45dip"
             android:textColor="@android:color/white"
@@ -104,7 +105,7 @@
 
         <Button
             android:id="@+id/remove_slideshow_button"
-            style="?android:attr/buttonStyleSmall"
+            style="@style/Widget.Material.DarkKat.Button.Small"
             android:layout_width="100dip"
             android:layout_height="45dip"
             android:textColor="@android:color/white"
