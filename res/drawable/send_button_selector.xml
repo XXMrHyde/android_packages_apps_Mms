@@ -17,6 +17,6 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_enabled="false"
-        android:drawable="@drawable/ic_send_disabled" />
-    <item android:drawable="@drawable/ic_send" /> <!-- default -->
+        android:drawable="@drawable/ic_send_disabled_white_24dp" />
+    <item android:drawable="@drawable/ic_send_white_24dp" /> <!-- default -->
 </selector>

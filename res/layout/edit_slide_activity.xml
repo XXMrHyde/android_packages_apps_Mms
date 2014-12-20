@@ -79,34 +79,34 @@
                 android:orientation="horizontal">
 
                 <ImageButton  android:id="@+id/pre_slide_button"
-                    style="?android:attr/buttonStyleSmall"
+                    style="@style/Widget.Material.DarkKat.Button.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="50dip"
                     android:src="@drawable/ic_maps_back_white_24dp" />
 
                 <ImageButton  android:id="@+id/next_slide_button"
-                    style="?android:attr/buttonStyleSmall"
+                    style="@style/Widget.Material.DarkKat.Button.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="50dip"
                     android:src="@drawable/ic_maps_next_white_24dp" />
             </LinearLayout>
 
             <Button android:id="@+id/preview_button"
-                style="?android:attr/buttonStyleSmall"
+                style="@style/Widget.Material.DarkKat.Button.Small"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lines="2"
                 android:text="@string/preview" />
 
             <Button android:id="@+id/replace_image_button"
-                style="?android:attr/buttonStyleSmall"
+                style="@style/Widget.Material.DarkKat.Button.Small"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lines="2"
                 android:text="@string/replace_image" />
 
             <Button android:id="@+id/remove_slide_button"
-                style="?android:attr/buttonStyleSmall"
+                style="@style/Widget.Material.DarkKat.Button.Small"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lines="2"
@@ -140,6 +140,7 @@
         </EditText>
 
         <Button android:id="@+id/done_button"
+            style="@style/Widget.Material.DarkKat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:nextFocusLeft="@+id/text_message"

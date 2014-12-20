@@ -14,17 +14,16 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Message list background -->
-    <color name="list_background">@*android:color/darkkat_blue_grey</color>
+    <style name="Widget.Material.DarkKat.Button" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/btn_default_material</item>
+    </style>
 
-    <!-- Floating action button -->
-    <color name="floating_action_button_icon_color">#ffffff</color>
-    <color name="floating_action_button_ripple_color">#ffffff</color>
+    <style name="Widget.Material.DarkKat.ImageButton" parent="@android:style/Widget.Material.ImageButton">
+        <item name="android:background">@drawable/btn_default_material</item>
+    </style>
 
-    <!-- Button -->
-    <color name="button_ripple_color">#40ffffff</color>
-
-    <!-- Hint text color -->
-    <color name="hint_text_color">#4dffffff</color>
+    <style name="Widget.Material.DarkKat.Button.Small" parent="@android:style/Widget.Material.Button.Small">
+        <item name="android:background">@drawable/btn_default_material</item>
+    </style>
 
 </resources>
