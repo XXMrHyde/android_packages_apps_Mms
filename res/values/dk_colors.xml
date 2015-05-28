@@ -27,4 +27,7 @@
     <!-- Hint text color -->
     <color name="hint_text_color">#4dffffff</color>
 
+    <!-- Theme accent color -->
+    <color name="theme_accent_color">#ff009688</color>
+
 </resources>
