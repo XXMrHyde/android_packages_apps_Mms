@@ -26,9 +26,9 @@
 
     <style name="MmsMaterialTheme" parent="@android:style/Theme.Material">
         <item name="android:colorBackground">@*android:drawable/darkkat_bg_blue_grey</item>
-        <item name="android:colorAccent">@*android:color/accent_material_light</item>
-        <item name="android:colorPrimary">@*android:color/material_blue_grey_900</item>
-        <item name="android:colorPrimaryDark">@*android:color/material_blue_grey_950</item>
+        <item name="android:colorPrimary">@color/theme_primary_color</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark_color</item>
+        <item name="android:colorAccent">@color/theme_accent_color</item>
     </style>
 
     <style name="WidgetTitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
