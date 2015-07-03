@@ -19,23 +19,23 @@
     <string name="start_new_message_button">Nuevo mensaje</string>
 
     <!-- Blacklist preferences -->
-    <string name="blacklist_title">Blacklist</string> <!-- Needs translation -->
-    <string name="blacklist_summary_disabled">Disabled</string> <!-- Needs translation -->
-    <string name="blacklist_summary">Incoming messages from phone numbers in the blacklist will be blocked</string> <!-- Needs translation -->
+    <string name="blacklist_title">Lista negra</string>
+    <string name="blacklist_summary_disabled">Deshabilitada</string>
+    <string name="blacklist_summary">Los mensajes entrantes de los números de teléfono de la lista negra serán bloqueados</string>
 
     <!-- Blacklist notifications -->
-    <string name="blacklist_notification">Blocked a message from %s</string> <!-- Needs translation -->
-    <string name="blacklist_notification_private_number">Blocked a message from a private number</string> <!-- Needs translation -->
-    <string name="blacklist_notification_list_private">Private</string> <!-- Needs translation -->
-    <string name="blacklist_notification_unknown_number">Blocked a message from unknown number %s</string> <!-- Needs translation -->
-    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> messages were blocked</string> <!-- Needs translation -->
-    <string name="unblock_number">Unblock</string> <!-- Needs translation -->
+    <string name="blacklist_notification">Bloqueado un mensaje del número %s</string>
+    <string name="blacklist_notification_private_number">Bloqueado un mensaje de un número privado</string>
+    <string name="blacklist_notification_list_private">Privado</string>
+    <string name="blacklist_notification_unknown_number">Bloqueado un mensaje de un número desconocido %s</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g>  mensajes han sido bloqueados</string>
+    <string name="unblock_number">Desbloquear</string>
 
     <!-- Blacklist management -->
-    <string name="add_to_blacklist">Add to blacklist</string> <!-- Needs translation -->
-    <string name="add_to_blacklist_message">Future messages from %s will be blocked</string> <!-- Needs translation -->
+    <string name="add_to_blacklist">Añadir a la lista negra</string>
+    <string name="add_to_blacklist_message">Los mensajes futuros del número %s  serán bloqueados</string>
 
     <!-- Generic blacklist handling -->
-    <string name="alert_dialog_yes">Yes</string> <!-- Needs translation -->
-    <string name="alert_dialog_no">No</string> <!-- Needs translation -->
+    <string name="alert_dialog_yes">Sí</string>
+    <string name="alert_dialog_no">No</string>
 </resources>
